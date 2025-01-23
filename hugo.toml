@@ -1,0 +1,30 @@
+baseURL = "https://lleu.net/"
+title = ""
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+theme="HugoTeX"
+
+[pagination]
+  pagerSize = 6
+
+[Params.author]
+  name = "Pouria Sirousian"
+  abstract = ""
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "paraiso-dark"
+
+[Params]
+  darkmode = false
